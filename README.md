@@ -49,4 +49,4 @@ ini semua gratis, jangan pelit ⭐️ ya :D
 ```Refresh Web dan masuk ke CI> build```
 
 ### STEP 9
-```Tekan Tombol panah menghadap ke bawah "RDP INFO LOGIN" Untuk Mendapatkan IP, User, Password.```
+```Tekan Tombol panah menghadap ke bawah "VPS INFO LOGIN" Untuk Mendapatkan IP, User, Password.```
