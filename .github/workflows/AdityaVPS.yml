@@ -24,13 +24,13 @@ jobs:
 
     - name: Menghidupkan Access User Root.
 
-      run: sudo useradd -m AdityaVPS &> /dev/null && sudo adduser AdityaVPS sudo &> /dev/null && echo 'AdityaVPS':AdityaVPS' | sudo chpasswd && sudo sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd && sudo usermod -aG sudo AdityaVPS && sudo hostname AdityaVPS
+      run: sudo useradd -m AdityaVPS &> /dev/null && sudo adduser AdityaVPS sudo &> /dev/null && echo 'AdityaVPS':AdityaVPS' | sudo chpasswd && sudo sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd && sudo usermod -aG sudo AdityaVPS19 && sudo hostname AdityaVPS19
 
     - name: Membuat Tunnel.
 
       run: ./ngrok tcp 22 > /dev/null &
 
-    - name: Connect Ke VPS Kamu CPU 2 Core - 7GB Ram - 255 SSD.
+    - name: Connect Ke VPS Kamu CPU 2 Core - 7GB Ram - 256 SSD.
 
       run: | 
 
@@ -46,7 +46,7 @@ jobs:
 
         echo Username: AdityaVPS
 
-        echo Password: AdityaVPS
+        echo Password: AdityaVPS19
 
         echo Silahkan Login Ke VPS Anda!!
 
