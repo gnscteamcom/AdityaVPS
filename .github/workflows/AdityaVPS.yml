@@ -9,6 +9,7 @@ jobs:
 
     steps:
     - name: Mendownload Ngrok.
+      run: yum install unzip -y
       run: wget -O ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip && unzip ngrok.zip && chmod +x ngrok && sudo yum install binfmt-support qemu qemu-user-static -y
     - name: Connect Ke Akun Ngrok.
       run: ./ngrok authtoken $NGROK_AUTH_TOKEN
